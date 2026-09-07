@@ -44,14 +44,27 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "ホーム", link: "/" },
-            { text: "鉄研について", link: "/simulator/" },
+            { text: "鉄研について", link: "/about/what-is-hoyutekken" },
             { text: "プラレール", link: "/plarail/" },
         ],
 
         sidebar: [
             {
                 text: "鉄研について",
-                items: [{ text: "鉄研Wikiとは?", link: "/about/" }],
+                items: [
+                    {
+                        text: "鉄研Wikiとは?",
+                        link: "/about/what-is-tekkenwiki",
+                    },
+                    {
+                        text: "鉄研とは?",
+                        link: "/about/what-is-hoyutekken",
+                    },
+                    {
+                        text: "メンバー構成",
+                        link: "/about/tekken-member",
+                    },
+                ],
             },
             {
                 text: "プラレール",
