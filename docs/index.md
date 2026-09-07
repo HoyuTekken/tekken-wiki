@@ -12,12 +12,12 @@ hero:
     actions:
         - theme: brand
           text: 詳しく読む
-          link: /about
+          link: /about/what-is-tekkenwiki
 
 features:
     - title: 鉄道研究部について
       details: 鉄道研究部がどのような部活なのか
-      link: /about/
+      link: /about/what-is-tekkenwiki
       linkText: 詳しく読む
 
     - title: 鉄道鬼ごっこ

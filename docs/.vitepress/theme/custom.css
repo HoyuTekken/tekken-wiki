@@ -15,4 +15,13 @@
         #00fa9a 80%
     );
     --vp-home-hero-image-filter: blur(50px);
+
+    img {
+        border-radius: 10px;
+    }
+
+    .vp-doc table {
+        display: table;
+        width: 100%;
+    }
 }
